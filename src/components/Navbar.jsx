@@ -5,7 +5,7 @@ export default function Navbar() {
         <a href="/">
           <img
             className="navbar-brand"
-            src="/src/assets/images/logo.png"
+            src="/images/logo.png"
             style={{
               width: "100px",
               height: "34px",

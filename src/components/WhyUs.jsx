@@ -11,7 +11,7 @@ export default function WhyUs() {
         <div className="row " style={{ marginTop: "40px" }}>
           <div className="col-lg-3 ">
             <div className="card-why">
-              <img src="/src/assets/images/icon_complete.svg " alt=" " />
+              <img src="/images/icon_complete.svg " alt=" " />
               <h2 style={{ fontSize: "16px", marginTop: "16px" }}>
                 Mobil Lengkap
               </h2>
@@ -23,7 +23,7 @@ export default function WhyUs() {
           </div>
           <div className="col-lg-3 ">
             <div className="card-why">
-              <img src="/src/assets/images/icon_price.svg " alt=" " />
+              <img src="/images/icon_price.svg " alt=" " />
               <h2 style={{ fontSize: "16px", marginTop: "16px" }}>
                 Harga Murah
               </h2>
@@ -35,7 +35,7 @@ export default function WhyUs() {
           </div>
           <div className=" col-lg-3 ">
             <div className="card-why ">
-              <img src="/src/assets/images/icon_24hrs.svg " alt=" " />
+              <img src="/images/icon_24hrs.svg " alt=" " />
               <h2 style={{ fontSize: "16px", marginTop: "16px" }}>
                 Layanan 24 Jam
               </h2>
@@ -47,7 +47,7 @@ export default function WhyUs() {
           </div>
           <div className="col-lg-3 ">
             <div className="card-why ">
-              <img src="/src/assets/images/icon_professional.svg " alt=" " />
+              <img src="/images/icon_professional.svg " alt=" " />
               <h2 style={{ fontSize: "16px", marginTop: "16px" }}>
                 Sopir Profesional
               </h2>

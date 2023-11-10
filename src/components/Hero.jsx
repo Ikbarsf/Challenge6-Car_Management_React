@@ -23,12 +23,7 @@ export default function Hero() {
             className="col-lg-5 col-xl-6 col-xxl-6 mt-lg-3"
             style={{ paddingTop: "50px" }}
           >
-            <img
-              className=""
-              width="100%"
-              src="/src/assets/images/img_car.png"
-              alt=""
-            />
+            <img className="" width="100%" src="/images/img_car.png" alt="" />
           </div>
         </div>
       </div>

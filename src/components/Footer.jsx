@@ -19,36 +19,16 @@ export default function Footer() {
           <div className="col-md-3 mx-auto">
             <p className="fw-light">Connect With Us</p>
             <p>
-              <img
-                className="mx-1"
-                src="/src/assets/images/icon_facebook.svg"
-                alt=""
-              />
-              <img
-                className="mx-1"
-                src="/src/assets/images/icon_instagram.svg"
-                alt=""
-              />
-              <img
-                className="mx-1"
-                src="/src/assets/images/icon_twitter.svg"
-                alt=""
-              />
-              <img
-                className="mx-1"
-                src="/src/assets/images/icon_mail.svg"
-                alt=""
-              />
-              <img
-                className="mx-1"
-                src="/src/assets/images/icon_twitch.svg"
-                alt=""
-              />
+              <img className="mx-1" src="/images/icon_facebook.svg" alt="" />
+              <img className="mx-1" src="/images/icon_instagram.svg" alt="" />
+              <img className="mx-1" src="/images/icon_twitter.svg" alt="" />
+              <img className="mx-1" src="/images/icon_mail.svg" alt="" />
+              <img className="mx-1" src="/images/icon_twitch.svg" alt="" />
             </p>
           </div>
           <div className="col-md-3 mx-auto">
             <p>Copyright Binar 2022</p>
-            <img src="/src/assets/images/logo.png" alt="" width="100px" />
+            <img src="/images/logo.png" alt="" width="100px" />
           </div>
         </div>
       </div>

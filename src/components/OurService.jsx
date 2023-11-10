@@ -7,7 +7,7 @@ export default function OurService() {
             <img
               className="img"
               style={{ height: 428 }}
-              src="/src/assets/images/img_service.png"
+              src="/images/img_service.png"
               alt=""
             />
           </div>
@@ -24,7 +24,7 @@ export default function OurService() {
             <div className=" list-check ">
               <p>
                 <img
-                  src="/src/assets/images/Group_53.svg"
+                  src="/images/Group_53.svg"
                   style={{ marginRight: 16 }}
                   alt=" "
                 />{" "}
@@ -34,7 +34,7 @@ export default function OurService() {
             <div className="list-check ">
               <p>
                 <img
-                  src="/src/assets/images/Group_53.svg"
+                  src="/images/Group_53.svg"
                   style={{ marginRight: 16 }}
                   alt=" "
                 />{" "}
@@ -44,7 +44,7 @@ export default function OurService() {
             <div className="list-check ">
               <p>
                 <img
-                  src="/src/assets/images/Group_53.svg"
+                  src="/images/Group_53.svg"
                   style={{ marginRight: 16 }}
                   alt=" "
                 />{" "}
@@ -54,7 +54,7 @@ export default function OurService() {
             <div className="list-check ">
               <p>
                 <img
-                  src="/src/assets/images/Group_53.svg"
+                  src="/images/Group_53.svg"
                   style={{ marginRight: 16 }}
                   alt=" "
                 />{" "}
@@ -64,7 +64,7 @@ export default function OurService() {
             <div className="list-check ">
               <p>
                 <img
-                  src="/src/assets/images/Group_53.svg"
+                  src="/images/Group_53.svg"
                   style={{ marginRight: 16 }}
                   alt=" "
                 />{" "}

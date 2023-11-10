@@ -31,7 +31,7 @@ export default function Testimonial() {
                   <div className="col-lg-3 text-lg-center px-3 ">
                     <br />
                     <img
-                      src="/src/assets/images/img_photo.png "
+                      src="/images/img_photo.png "
                       className="img-fluid rounded-circle "
                       width="80px "
                       alt="... "
@@ -41,7 +41,7 @@ export default function Testimonial() {
                   <div className="col-lg-9 text-center text-md-center">
                     <div className="card-body ">
                       <img
-                        src="/src/assets/images/Rate.png "
+                        src="/images/Rate.png "
                         alt=" "
                         className="w-25 mb-3 mb-lg-2"
                       />
@@ -66,7 +66,7 @@ export default function Testimonial() {
                   <div className="col-lg-3 text-lg-center px-3 ">
                     <br />
                     <img
-                      src="/src/assets/images/img_photo1.png "
+                      src="/images/img_photo1.png "
                       className="img-fluid rounded-circle "
                       width="80px "
                       alt="... "
@@ -76,7 +76,7 @@ export default function Testimonial() {
                   <div className="col-lg-9 text-md-center text-md-center">
                     <div className="card-body ">
                       <img
-                        src="/src/assets/images/Rate.png "
+                        src="/images/Rate.png "
                         alt=" "
                         className="w-25 mb-3 mb-lg-2 "
                       />
@@ -101,7 +101,7 @@ export default function Testimonial() {
                   <div className="col-lg-3 text-lg-center px-3 ">
                     <br />
                     <img
-                      src="/src/assets/images/img_photo.png "
+                      src="/images/img_photo.png "
                       className="img-fluid rounded-circle "
                       width="80px "
                       alt="... "
@@ -111,7 +111,7 @@ export default function Testimonial() {
                   <div className="col-lg-9 text-md-center text-md-center">
                     <div className="card-body ">
                       <img
-                        src="/src/assets/images/Rate.png "
+                        src="/images/Rate.png "
                         alt=" "
                         className="w-25 mb-3 mb-lg-2 "
                       />
@@ -136,7 +136,7 @@ export default function Testimonial() {
                   <div className="col-lg-3 text-lg-center px-3 ">
                     <br />
                     <img
-                      src="/src/assets/images/img_photo.png "
+                      src="/images/img_photo.png "
                       className="img-fluid rounded-circle "
                       width="80px "
                       alt="... "
@@ -146,7 +146,7 @@ export default function Testimonial() {
                   <div className="col-lg-9 text-md-center text-md-center">
                     <div className="card-body ">
                       <img
-                        src="/src/assets/images/Rate.png "
+                        src="/images/Rate.png "
                         alt=" "
                         className="w-25 mb-3 mb-lg-2 "
                       />

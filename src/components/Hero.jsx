@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return (
     <section className="mobil">
@@ -15,9 +17,9 @@ export default function Hero() {
               kualitas terbaik dengan harga terjangkau. Selalu siap melayani
               kebutuhanmu untuk sewa mobil selama 24 jam.{" "}
             </p>
-            <a href="/cars" className="btn btn-utama">
+            <Link to="/cars" className="btn btn-utama">
               Mulai Sewa Mobil
-            </a>
+            </Link>
           </div>
           <div
             className="col-lg-5 col-xl-6 col-xxl-6 mt-lg-3"

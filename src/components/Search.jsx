@@ -11,7 +11,14 @@ export default function Search({ filter }) {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-12">
-            <div className="row search__card mx-lg-5 py-3 px-4">
+            <form
+              className="row search__card mx-lg-5 py-3 px-4"
+              onSubmit={(e) => {
+                e.preventDefault();
+
+                filter(available, date, time, capacity);
+              }}
+            >
               <div className="col-lg-auto col-xl-2 col-xxl-3 col-md-auto">
                 <label>Tipe Driver</label>
                 <select
@@ -73,15 +80,11 @@ export default function Search({ filter }) {
                 </div>
               </div>
               <div className="col-lg-2 col-xl-auto col-md-2  pt-4">
-                <button
-                  className="btn btn-utama"
-                  id="load-btn"
-                  onClick={() => filter(available, date, time, capacity)}
-                >
+                <button className="btn btn-utama" id="load-btn">
                   Cari Mobil
                 </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>

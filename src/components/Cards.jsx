@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { CarContext } from "../pages/car";
 
 export default function Cards() {
-  const cars = useContext(CarContext);
+  const carView = useContext(CarContext);
 
   function Rupiah(angka) {
     var numberString = angka.toString();
@@ -20,13 +20,25 @@ export default function Cards() {
     return "Rp. " + rupiah;
   }
 
+  if (carView.length == 0) {
+    return (
+      <section className="cars">
+        <div className="container">
+          <div className="row justify-content-center">
+            <h2 className="text-center">Data Tidak Ditemukan...</h2>;
+          </div>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section className="cars">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-11 ">
             <div className="row" id="cars-container">
-              {cars.map((item) => (
+              {carView.map((item) => (
                 <div className="col-lg-4" key={item.id}>
                   <div className="card  px-2 py-4">
                     <img
